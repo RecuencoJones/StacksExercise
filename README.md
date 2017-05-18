@@ -12,22 +12,24 @@ npm run install
 npm run test
 ```
 
+- Check [stack.js](./stack.js) to understand how a Stack data structure works.
 - Edit your solution in [exercise.js](./exercise.js).
 - All tests in [test.js](./test.js) must pass. You can add further test cases.
 
 ## Description
 
-A queue is an abstract data type that maintains the order in which elements were added to it, 
-allowing the oldest elements to be removed from the front and new elements to be added to the rear. 
-This is called a First-In-First-Out (FIFO) data structure because the first element added to the 
+A [queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) is an abstract data type that maintains the order in 
+which elements were added to it, allowing the oldest elements to be removed from the front and new elements to be 
+added to the rear. This is called a First-In-First-Out (FIFO) data structure because the first element added to the 
 queue (i.e., the one that has been waiting the longest) is always the first one to be removed.
 
 A basic queue has the following operations:
 
 - **Enqueue**: add a new element to the end of the queue.
 - **Dequeue**: remove the element from the front of the queue and return it.
-In this challenge, you must first implement a queue using two stacks. Then process `n` queries, 
-where each query is one of the following 3 types:
+
+In this challenge, you must first implement a queue using two [stacks](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)). 
+Then process `n` queries, where each query is one of the following 3 types:
 
 1. `1 x`: Enqueue element `x` into the end of the queue.
 2. `2`: Dequeue the element at the front of the queue.
@@ -93,6 +95,6 @@ We perform the following sequence of actions:
 
 ## Evaluation
 
-- Optimized usage of stacks
+- Correct and optimized usage of [stacks](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 - Cost of actions
 - Additional test cases

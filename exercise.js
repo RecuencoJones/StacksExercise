@@ -1,11 +1,4 @@
-/**
- * Retrieve the value at the top of the stack.
- *
- * @returns {*} value of item at the top of the stack.
- */
-Array.prototype.peek = function() {
-  return this[this.length - 1];
-};
+const Stack = require('./stack');
 
 /**
  * Run the exercise over some inputs.
@@ -15,9 +8,10 @@ Array.prototype.peek = function() {
  */
 module.exports = (inputs) => {
   // valid stack operations: push, pop, peek.
-  // use only the following defined stacks.
-  const stack1 = [];
-  const stack2 = [];
+  // use the following defined stacks.
+  const stack1 = new Stack();
+  const stack2 = new Stack();
+
   const result = [];
 
   /////////

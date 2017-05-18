@@ -32,4 +32,13 @@ describe('Stacks test', () => {
       '14'
     ]);
   });
+
+  it('should pass test #3', () => {
+    const input = [
+      '1 42',
+      '2'
+    ];
+
+    expect(exercise(input)).to.deep.equal([]);
+  });
 });
